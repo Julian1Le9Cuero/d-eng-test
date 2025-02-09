@@ -32,13 +32,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/Julian1Le9Cuero/d-eng-test">
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebcatalog.io%2Fes%2Fapps%2Ftvmaze&psig=AOvVaw0BfrjAgSb3HTxKtNLCWkiJ&ust=1739222931775000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODm6rrEt4sDFQAAAAAdAAAAABAE" alt="TVMaze Logo" width="80" height="80">
+    <img src="images/tvmazelogo.png" alt="TVMaze Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Data engineers - Technical test</h3>
 
   <p align="center">
-    Technical test using series data from TVMaze
+    Technical test using series data from TVMaze API
     <br />
     <!-- <a href="https://github.com/Julian1Le9Cuero/d-eng-test">View Demo</a>
     &middot;
@@ -67,9 +67,9 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <!-- <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -105,19 +105,18 @@ Configure a virtual environment using the venv package from Python.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/Julian1Le9Cuero/d-eng-test.git
    ```
-3. Install Python packages
+2. Install Python packages
    ```sh
     pip install pandas
     pip install urllib
     pip install ydata_profiling
     pip install psycopg2
    ```
-4. Enter your postgresql credentials in `json/dbcredentials.json`
+3. Enter your postgresql credentials in `json/dbcredentials.json`
    ```json
     {
         "host":"127.0.0.1",
@@ -126,7 +125,7 @@ Configure a virtual environment using the venv package from Python.
         "password":"123"
     }
    ```
-5. Change git remote url to avoid accidental pushes to base project
+4. Change git remote url to avoid accidental pushes to base project
    ```sh
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
@@ -186,6 +185,7 @@ Project Link: [https://github.com/Julian1Le9Cuero/d-eng-test](https://github.com
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
+[product-screenshot]: images/tvmazelogo.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Next-url]: https://nextjs.org/
